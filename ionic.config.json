@@ -1,0 +1,7 @@
+{
+  "name": "gestion-inventarios",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

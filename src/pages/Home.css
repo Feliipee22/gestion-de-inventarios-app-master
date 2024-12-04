@@ -1,0 +1,89 @@
+/* Reseteo básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Contenedor principal */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Garantiza que el pie de página quede al fondo */
+}
+
+/* Contenido principal */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  padding: 20px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Permite que las tarjetas se adapten en pantallas pequeñas */
+}
+
+.card {
+  width: 200px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.blue {
+  background-color: #007bff;
+}
+
+.dark-blue {
+  background-color: #42f55d;
+}
+
+/* Imagen */
+.image-container {
+  margin-top: 30px;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+.footer {
+  background-color: #4c6ffb;
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Asegura que ocupe todo el ancho */
+}
+
+.footer .social-links {
+  margin-bottom: 10px;
+}
+
+.footer .social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer .social-links img {
+  vertical-align: middle;
+}
+
+.footer p {
+  color: #333;
+  font-size: 0.9rem;
+}
